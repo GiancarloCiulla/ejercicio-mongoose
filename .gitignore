@@ -1,3 +1,5 @@
 
 .env
 node_modules
+db_pgsql.js
+instalacion.txt

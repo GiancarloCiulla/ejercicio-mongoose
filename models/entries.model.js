@@ -1,14 +1,6 @@
 
-const { Pool } = require('pg');
+const pool = require('../config/db_pgsql'); // conexion a BBDD
 const queries = require('./queries') // Queries SQL
-
-const pool = new Pool({
-    host: 'localhost',
-    user: 'postgres',
-    port: '5432',
-    database: 'postgres',
-    password: '123456'
-  });
 
 // GET
 const getEntriesByEmail = async (email) => {
