@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 //mongoose.set('strictQuery', false);
-mongoose.connect("mongodb://localhost:27017/local");
+mongoose.connect("mongodb+srv://user1:Contraseña1@cluster0.g3yjm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 const db = mongoose.connection;
 
