@@ -8,7 +8,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js" 
   },
-  "author": "Alberto Serrano",
+  "author": "Giancarlo Ciulla",
   "license": "ISC",
   "dependencies": {
     "cowsay": "^1.6.0",
